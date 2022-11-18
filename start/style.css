@@ -1,33 +1,45 @@
 #sidebar{
     width: 200px;
     height: 100vh;
-    border: 2px solid red;
+    border: 2px solid orchid;
     display: flex;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: rgb(102, 207, 207);
     justify-content: center;
 }
 div{
     display: flex;
     justify-content: center;
+    
 }
 figcaption{
      display: flex;
      justify-content: center;
 }
+#logo{
+    width: 56px;
+    height: 56px;
+}
 #head{
-    border: 2px solid green; 
+    border: 0px solid orchid; 
     
 }
 #body{
-    border: 2px solid blue;
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: 0px solid orchid;
+    flex: 1; 
+}
+ul{
+    position: absolute;
+    list-style-type: none;
+    color: #2b2b2b;
+    
 }
 #footer{
-    border: 2px solid orchid;
+    border: 0px solid orchid;
 }
 #avatarpic{
-    
     width: 56px;
     height: 56px;
 }
