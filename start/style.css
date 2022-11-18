@@ -4,16 +4,32 @@
     border: 2px solid red;
     display: flex;
     flex-direction: column;
+    background-color: burlywood;
+    justify-content: center;
 }
-#logo{
-   
+div{
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+     display: flex;
+     justify-content: center;
+}
+#head{
     border: 2px solid green; 
+    
 }
-#links{
+#body{
     border: 2px solid blue;
-   
+    flex: 1;
 }
 #footer{
     border: 2px solid orchid;
-    
 }
+#avatarpic{
+    
+    width: 56px;
+    height: 56px;
+}
+
+
