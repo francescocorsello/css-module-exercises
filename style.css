@@ -2,14 +2,15 @@ body {
   width: 60em;
   margin: 0 auto;
 }
-
 section {
   padding: 2em;
   margin: 1em;
+  
 }
 
 #green {
   background-color: #8ffda7;
+  justify-content: flex-start;
 }
 
 #orange {
@@ -26,6 +27,7 @@ section {
 
 #blue {
   background-color: #98d2ff;
+  justify-content: flex-end;
 }
 
 ul {
