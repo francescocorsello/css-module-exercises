@@ -1,7 +1,8 @@
 
+
 section{
-    border: 3px solid black;
-    margin-bottom: 1rem;
+    border: 1px solid black;
+    margin-bottom: 0;
     position: relative;
     width: 300px;
     height: 300px;
@@ -37,3 +38,5 @@ section.grid{
     margin: 0;
     padding: 0;
 }
+
+
