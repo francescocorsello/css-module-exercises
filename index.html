@@ -9,21 +9,25 @@
 </head>
 <body>
     <nav>
-        <b>Navbar</b> 
-             <div id="responsive">
-            <a href="https://www.google.it/">Home</a>
-            <a href="https://www.develhope.co/" id="link">Link</a>
-            <select id="dropdown" name="links" >
+        <div id="navbar"> Navbar</div>
+             
+            <a href="https://www.google.it/" class="responsive">Home</a>
+            <a href="https://www.develhope.co/" class="responsive" id="link">Link</a>
+            <select id="dropdown" name="links" class="responsive">
                 <option value="movies">Dropdown</option>
                 <option value="movies">Movies</option>
                 <option value="tv">Tv</option>
                 <option value="games">Games</option>
               </optgroup>
             </select>
-            <button disabled="disabled" id="disabled">Disabled</button>
-            
-            <input type="search" name="" id="searchinput" class="search" placeholder="Search here">
-            <button type=“search” class="search" id="searchbutton" >Search</button>  
+            <div id="disabled" class="responsive">
+            <button disabled="disabled" id="buttondisabled" >Disabled</button>
+             </div>
+            <input type="search" name="" id="searchinput" class="search responsive" placeholder="Search here">
+            <button type=“search” class="search responsive" id="searchbutton" >Search</button>  
+        
+        <div id="humburger">
+            &#9776;
         </div>
     </nav>  
 </body>
