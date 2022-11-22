@@ -1,0 +1,17 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   div {
+    border:1px solid gray; width: 230px;
+  }
+ 
+#grid{
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+   }
+   #figure{
+    grid-column: span 4;
+    justify-content: center;
+   }
+
