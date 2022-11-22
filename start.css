@@ -17,11 +17,9 @@ body {
     grid-area: verde;
     
   }
-  
   #orange {
     background-color: #ffc788;
     order: 5;
-    
     grid-area: arancione;
     
   }
@@ -44,7 +42,7 @@ body {
     grid-area: blu;
    
   }
-  
+
   ul {
     padding: 0;
   }
