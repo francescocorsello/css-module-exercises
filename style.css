@@ -3,9 +3,13 @@
     --width: 30vw;
     --height: 50vw;
    }
+   body{
+    display: inline;
+   }
+
    div {
     font-size: 1.7vw;
-    border:1px solid rgb(196, 195, 195);
+    border: transparent;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -13,22 +17,85 @@
     justify-content: space-around;
     align-items: stretch;
   }
-  #card{
+  .card{
     width: var(--width);
     height: var(--height);
     display: grid;
     grid-template-columns: 5fr;
     grid-template-rows: 1fr 3fr 1fr 2fr 1fr;
+    background: rgb(142,140,140);
+    background: linear-gradient(180deg, rgba(142,140,140,1) 0%, rgba(214,214,214,1) 35%, rgba(242,242,242,1) 100%);
+    border-radius: 19px;
   }
+  
+
+.userdata {
+
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    margin: .2rem;
+
+}
+.userdata>div { 
+    height: 100%;
+    flex: 1; 
+}
+.profilepic {
+    max-width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profilepicpreview {
+
+    background-color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 19px;
+
+}
+.username {
+    max-width: 65%;
+    padding: 5px;
+}
+
+#nameofuser {
+    padding-bottom: .5rem;
+    font-size: 1em;
+    font-weight: lighter;
+}
+#dateposted {
+
+    padding-bottom: .5rem;
+    font-size: .5em;
+    color: white;
+}
+.hamburger {
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.hamburger>div {
+    max-height: 50%;
+    flex: 1;
+}
    #image{
     grid-column: span 4;
     justify-content: center;
    }
-img{
+    img{
    width: 100% ;
    height: 100%;
-}
-#cardtitle{
+        }
+    #cardtitle{
     padding: 10px;
     grid-column: span 4;
 }
@@ -37,18 +104,30 @@ p{
     margin: 0;
 }
 #icons{
-    
-    padding: 2px;
-    grid-column: span 4;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    padding-top: .5rem;
+    padding-left: .8rem;
+    margin: .5rem;
+}
+#heart{
+    margin-right: .6rem;
 }
 #text{
+    display: inline;
     padding: 1rem;
     grid-column: span 4;
     text-align: justify;
+    
 }
 #footer{
+    display: flex;
+    flex-direction: row;
     padding: 2px;
-    grid-column: span 4;
+    grid-column: span 1; 
 }
 h2{
     margin: 0;
